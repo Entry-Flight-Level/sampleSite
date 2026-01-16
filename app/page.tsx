@@ -17,7 +17,7 @@ export default function Home() {
           Skills
         </h2>
         <div className="flex flex-wrap gap-2 text-gray-500 font-bold">
-          {['Java', 'Powershell', 'Bash', 'Python', 'YAML', 'JSON', 'React', 'Javascript', 'Typescript', 'C', 'HTML', 'CSS']
+          {['Java', 'Powershell', 'Bash', 'Python', 'YAML', 'JSON', 'React', 'Javascript', 'Typescript', 'C', 'C++', 'HTML', 'CSS']
           .map((skills) => (
             <span key={skills} className="px-4 py-2 bg-gray-100 rounded-full text-sm">
               {skills}
