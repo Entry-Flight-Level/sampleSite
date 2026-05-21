@@ -16,32 +16,32 @@ export default function ProjectsPage() {
       title: "Browser-Based GIF & Video Generator",
       createdAt: "2026-01-01",
       description:
-        "Web app allowing users to upload images, customize output, and generate GIFs or MP4s. Preview is generated client-side, with final processing handled server-side.",
+        "Built a media processing web app as a hands-on deep dive into React and modern front-end development. Implemented file uploading and learned how to generate GIF and MP4 previews entirely client-side before sending data for final server-side rendering.",
       liveUrl: "https://kapwinginterview-ruby.vercel.app/",
       icon: "🎞️",
     },
     {
-      id: "fastai-model-exploration",
-      title: "AI Model Exploration with FastAI",
+      id: "all-things-ai",
+      title: "Exploration of All Things AI",
       createdAt: "2026-01-10",
       description:
-        "Explored deep learning workflows by training image classification models using FastAI, covering preprocessing, augmentation, training, and evaluation.",
+        "An ongoing exploration of artificial intelligence, starting from low-level NLP and core ML fundamentals, and expanding into experimenting with modern agentic processes using tools like Antigravity, LM Studio, and Claude.",
       icon: "🤖",
     },
     {
-      id: "opensource-typescript",
-      title: "Open Source TypeScript Exploration",
+      id: "elasticsearch-contribution",
+      title: "Open Source Contribution: ElasticSearch",
       createdAt: "2026-01-15",
       description:
-        "Explored open source TypeScript codebases to understand real-world architecture, tooling, and contributor workflows, experimenting locally to deepen familiarity with large-scale TS projects.",
+        "Contributed to the ElasticSearch open source repository by refactoring and optimizing test suites. Removed redundant methods from UnsignedLongFieldMapperTests and ScaledFloatFieldMapperTests that were already covered by parent classes, improving test suite efficiency through polymorphism.",
       icon: "🧩",
     },
       {
-      id: "custom-client-plugins",
-      title: "Custom Client Plugin Development",
+      id: "ai-validation-tuning",
+      title: "AI Tuning Validation Utility",
       createdAt: "2026-01-20",
       description:
-        "Designed and implemented custom client-side plugins using extension APIs and event-driven architecture. Built UI overlays and real-time state tracking with an emphasis on performance and maintainable plugin design.",
+        "Currently in the early stages of developing a specialized tool designed to assist with validation accuracy during AI model tuning, exploring new ways to evaluate and refine model performance.",
       icon: "🧠",
     },
   ];
@@ -49,7 +49,7 @@ export default function ProjectsPage() {
   return (
     <div className="max-w-6xl mx-auto px-6 py-20">
       <header className="mb-16">
-        <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500">
+        <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500 pb-2">
           Projects
         </h1>
         <p className="text-xl text-gray-400 mt-6 font-light max-w-2xl">

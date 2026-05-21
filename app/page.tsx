@@ -61,11 +61,11 @@ export default function Home() {
         <div className="grid gap-8 md:grid-cols-2 mb-12">
           <ProjectCard
             title="Browser-Based GIF & Video Generator"
-            description="Created a web app that allows users to upload images, customize output, and generate GIFs or MP4s. Preview and processing are handled client-side, with final rendering done server-side, demonstrating full-stack browser-to-server media workflows."
+            description="Built a media processing web app as a hands-on deep dive into React and modern front-end development. Implemented file uploading and learned how to generate GIF and MP4 previews entirely client-side before sending data for final server-side rendering."
           />
           <ProjectCard
-            title="AI Model Exploration with FastAI"
-            description="Explored deep learning workflows by training custom image classification models using FastAI. Built end-to-end pipelines, including data preprocessing, augmentation, training, and evaluation, with experiments on datasets such as cat vs. dog classification. Focused on understanding model performance, optimization, and modern ML techniques."
+            title="Exploration of All Things AI"
+            description="An ongoing exploration of artificial intelligence, starting from low-level NLP and core ML fundamentals, and expanding into experimenting with modern agentic processes using tools like Antigravity, LM Studio, and Claude."
           />          
         </div>
         <div className="text-center">

@@ -13,21 +13,21 @@ export default function aboutPage() {
               I'm a software engineer with over 5 years of experience building reliable, scalable systems from customer facing applications at startups to infrastructure powering tens of millions of machines.
             </p>
             <p>
-              I enjoy tackling complex technical problems across the stack, whether that's optimizing performance at scale, building robust automation pipelines, or designing systems that need to work reliably under demanding conditions. I value ownership, and understanding the full context of what I'm building. 
+              I enjoy tackling complex technical problems across the stack, whether that's optimizing performance at scale, building robust automation pipelines, or designing systems that need to work reliably under demanding conditions. I value ownership, and understanding the full context of what I'm building.
             </p>
           </div>
         </div>
 
         <div className="space-y-8 pl-6 md:pl-10 border-l-2 border-white/10 relative before:absolute before:inset-y-0 before:left-[-2px] before:w-[2px] before:bg-gradient-to-b before:from-cyan-500 before:via-purple-500 before:to-indigo-500">
-          
+
           <section className="relative glass p-8 rounded-3xl glass-hover group">
             <div className="absolute -left-[33px] md:-left-[49px] top-10 w-4 h-4 rounded-full bg-cyan-400 border-4 border-[#050505] group-hover:scale-150 transition-transform duration-300"></div>
             <h2 className="text-2xl md:text-3xl font-bold text-white mb-2 flex flex-col md:flex-row md:items-center justify-between gap-2">
               AWS EC2
-              <span className="text-sm font-medium text-cyan-400 bg-cyan-400/10 px-3 py-1 rounded-full w-fit">2022-2024</span>
+              <span className="text-sm font-medium text-cyan-400 bg-cyan-400/10 px-3 py-1 rounded-full w-fit">2022-2025</span>
             </h2>
             <p className="text-lg text-gray-400 mb-6 font-light">
-              I spent 2.5 years on the EC2 Windows team working on critical infrastructure running across 40+ million instances.
+              I spent 3 years on the EC2 Windows team working on critical infrastructure running across 40+ million instances.
             </p>
             <div className="space-y-4">
               <p className="font-semibold text-cyan-300 tracking-wide text-sm uppercase">Key Projects</p>
