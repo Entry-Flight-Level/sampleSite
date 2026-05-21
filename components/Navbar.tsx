@@ -8,17 +8,16 @@ function NavLink({ href, children }: { href: string; children: React.ReactNode }
         relative
         text-sm font-medium
         text-white/70
-        transition-all duration-200
-        hover:text-white
-        hover:-translate-y-0.5
+        transition-all duration-300
+        hover:text-cyan-400
         after:absolute
         after:left-0
-        after:-bottom-1
+        after:-bottom-1.5
         after:h-[2px]
         after:w-full
         after:scale-x-0
         after:origin-left
-        after:bg-white
+        after:bg-gradient-to-r after:from-cyan-400 after:to-purple-500
         after:transition-transform
         after:duration-300
         hover:after:scale-x-100
@@ -31,29 +30,23 @@ function NavLink({ href, children }: { href: string; children: React.ReactNode }
 
 export default function Navbar() {
   return (
-    <nav className="border-b border-white/10 bg-black">
-    <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+    <nav className="sticky top-0 z-50 glass border-b border-white/5">
+      <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         <Link
-            href="/"
-            className="
-                relative text-white text-xl font-semibold tracking-tight
-                transition-all duration-300
-                hover:text-white
-                hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.35)]
-                after:absolute after:left-0 after:-bottom-1 after:h-[2px]
-                after:w-0 after:bg-white
-                after:transition-all after:duration-300
-                hover:after:w-full
-            "
-            >
-            Eric Luo
+          href="/"
+          className="
+            text-xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400
+            transition-all duration-300 hover:to-cyan-200 hover:scale-105
+          "
+        >
+          Eric Luo
         </Link>
         <div className="flex gap-8">
             <NavLink href="/projects">Projects</NavLink>
             <NavLink href="/about">About</NavLink>
             <NavLink href="/links">Links</NavLink>
         </div>
-    </div>
+      </div>
     </nav>
   );
 }
